@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {    
+    box-sizing: border-box;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+.app {
+    width: 100vw;
+    height: 100%;
+    background-color: #E5E5E5;
+}
+.header {
+    padding: 20px 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 40px;
+    background-color: rgb(226, 41, 41);
+}
+.main {
+    display: flex;
+}
+.side-bar {
+    background-color: rgba(148, 243, 134, 0.518);
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    background-color: goldenrod;
+
+}
+.container {
+    display: flex;
+    padding: 20px;
+}
+.container > img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+.container > p {
+    padding-left: 30px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.footer {
+    background-color: rgb(60, 91, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.decrement-btn {
+    background: darkred;
+}
+.increment-btn {
+    background: green;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#userInput {
+    width: 200px;
+    border: none;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 10px;
+
+}
